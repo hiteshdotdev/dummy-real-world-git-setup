@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main className="main-content">
         <h1>Welcome to Frontend App</h1>
-        <p>Click the button to increment the counter</p>
+        <p>Click the button to increment the count</p>
         <button onClick={() => setCount(count + 1)}>
           Count: {count}
         </button>
