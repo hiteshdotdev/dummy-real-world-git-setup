@@ -13,7 +13,7 @@ function App() {
         <h1>Welcome to Frontend App</h1>
         <p>Click the button to increment the count</p>
         <button onClick={() => setCount(count + 1)}>
-          Count: {count}
+          Count Value: {count}
         </button>
       </main>
       <Footer />
