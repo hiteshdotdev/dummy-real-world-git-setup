@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <main className="main-content">
-        <h1>Welcome to Frontend App</h1>
+        <h1>Welcome to Frontend Application</h1>
         <p>Click the button to increment the count</p>
         <button onClick={() => setCount(count + 1)}>
           Count Value: {count}
